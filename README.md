@@ -1,4 +1,4 @@
-💉 Vaccination Data Analysis and Visualization
+ 💉 Vaccination Data Analysis and Visualization
 
 Streamlit • MySQL • Power BI • SQL • Python • Public Health Analytics
 
