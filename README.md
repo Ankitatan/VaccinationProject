@@ -103,17 +103,29 @@ Vaccination-Data-Analysis/
 ├── sql/
 └── data/
 🚀 Getting Started
+
 Clone the Repository
-git clone https://github.com/Ankitatan/Vaccination-Data-Analysis.git
+
+git clone https://github.com/Ankitatan/VaccinationProject
+
 cd Vaccination-Data-Analysis
+
 Install Dependencies
+
 pip install -r requirements.txt
+
 Configure MySQL
+
 Create the vaccination_project database.
+
 Import the required tables.
+
 Update the database credentials in app.py.
+
 Run the Application
+
 streamlit run app.py
+
 
 Open the Power BI dashboard (PowerBI_Dashboard.pbix) for advanced analytics and executive reporting.
 
@@ -123,8 +135,15 @@ Add screenshots of your Streamlit and Power BI dashboards here.
 
 Example:
 
-screenshots/home_dashboard.png
-screenshots/powerbi_dashboard.png
+<img width="2780" height="1373" alt="Screenshot 2026-08-03 232924" src="https://github.com/user-attachments/assets/2e23d9c8-2b4f-4ba7-906b-112bf18119df" />
+
+
+<img width="2848" height="1419" alt="Screenshot 2026-08-03 232855" src="https://github.com/user-attachments/assets/626d547a-f7ec-48bd-a054-36ef7816c767" />
+
+
+<img width="2831" height="1450" alt="Screenshot 2026-08-03 232638" src="https://github.com/user-attachments/assets/b6b277dc-3544-4d36-8b9d-cba07f635b34" />
+
+
 ✨ Skills Demonstrated
 SQL Query Development
 Database Design
