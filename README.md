@@ -1,188 +1,156 @@
-Vaccination Data Analysis and Visualization
+💉 Vaccination Data Analysis and Visualization
 
-Streamlit | MySQL | Power BI | Public Health Analytics
+Streamlit • MySQL • Power BI • SQL • Python • Public Health Analytics
+
+An end-to-end data analytics project that explores global vaccination coverage using SQL, Streamlit, and Power BI. The project transforms raw vaccination data into interactive dashboards and actionable insights to support public health planning, disease prevention, and evidence-based decision-making.
 
 📌 Project Overview
 
-This project analyzes global vaccination coverage data to uncover trends, regional disparities, and actionable public health insights. The analysis is implemented using MySQL for data storage, Streamlit for SQL-driven analytics, and Power BI for advanced business intelligence dashboards.
+Vaccination programs play a critical role in preventing infectious diseases and improving population health. This project analyzes vaccination coverage across countries and regions to identify trends, measure program performance, and highlight areas requiring policy intervention.
 
-The solution supports policy-making, disease prevention, and resource allocation decisions for governments and health organizations.
+The solution integrates MySQL for structured data management, Streamlit for interactive SQL-based analytics, and Power BI for executive dashboards and business intelligence reporting.
 
-🧠 Problem Statement
-
-Analyze global vaccination data to understand:
-
-Vaccination coverage trends over time
-
-Regional and country-level disparities
-
-Vaccine performance and uptake
-
-Public health risks due to low vaccination coverage
-
-The cleaned data is stored in a normalized SQL database, visualized through Streamlit dashboards, and further analyzed using Power BI.
-
-🎯 Business Use Cases
-Public Health Strategy
-
-Identify regions with low vaccination coverage
-
-Evaluate vaccination program effectiveness
-
-Support booster dose and new vaccine policies
-
-Disease Prevention
-
-Detect high-risk regions prone to outbreaks
-
-Assess impact of vaccination on disease reduction
-
-Resource Allocation
-
-Optimize vaccine supply distribution
-
-Forecast vaccine demand based on historical trends
-
-Global Health Policy
-
-Enable data-driven vaccination policies
-
-Support WHO and government health initiatives
-
-🛠️ Tech Stack
-Component	Technology
+🎯 Objectives
+Analyze vaccination coverage trends over time.
+Compare vaccination performance across countries and WHO regions.
+Identify areas with low vaccination uptake.
+Support public health planning with data-driven insights.
+Build interactive dashboards for technical and non-technical users.
+🛠️ Technology Stack
+Category	Tools
+Programming	Python
 Database	MySQL
-Backend Analytics	Python
-Dashboard	Streamlit
-BI Tool	Power BI
-Visualization	Altair, Power BI
 Query Language	SQL
-🗂️ Dataset Description
+Dashboard	Streamlit
+Business Intelligence	Power BI
+Visualization	Altair, Power BI
+Data Analysis	Pandas, NumPy
+🗄️ Database Structure
 
 Database: vaccination_project
 
 Tables Used
-
-coverage_data – Vaccination coverage and dose data
-
-country_master – Country and WHO region reference
-
-incidence_rate – Disease incidence rates
-
-reported_cases – Disease case counts
-
+coverage_data – Vaccination coverage and administered doses
+country_master – Country and WHO region reference data
+incidence_rate – Disease incidence statistics
+reported_cases – Reported disease case counts
 vaccine_introduction – Vaccine rollout information
-
-vaccine_schedule – Vaccine schedule and target population
-
+vaccine_schedule – Immunization schedules and target populations
 📊 Streamlit Dashboard
 
-The Streamlit app (app.py) provides:
+The Streamlit application provides interactive SQL-based analytics with 30 analytical questions, organized into three sections:
 
-30 analytical questions fully implemented
-
-Single-table SQL queries only (exam-safe, zero empty graphs)
-
-Organized into three tabs:
-
-Easy Questions (10)
-
-Medium Questions (10)
-
-Scenario-Based Insights (10)
-
-Question-wise charts (line, bar, tables)
-
-Robust MySQL connection handling
-
+Easy Analysis
+Vaccination coverage overview
+Country comparisons
+Coverage by vaccine
+Intermediate Analysis
+Trend analysis
+Regional comparisons
+Coverage distribution
+Scenario-Based Analysis
+Public health insights
+Policy recommendations
+Resource allocation scenarios
+Features
+Interactive SQL-powered dashboard
+Dynamic charts and tables
+Robust MySQL connectivity
+Modular code structure
+User-friendly interface
 📈 Power BI Dashboard
 
-A separate Power BI dashboard is created for advanced analytics and executive reporting.
+The Power BI dashboard provides executive-level business intelligence with:
 
-Power BI Features
-
-KPI cards (Average Coverage, Total Doses, Target Population)
-
-Country & WHO region comparisons
-
-Year-wise vaccination trends
-
-Antigen-wise coverage analysis
-
-Interactive slicers (Country, Year, Region, Vaccine)
-
-Heatmaps and ranking visuals
-
-Power BI complements Streamlit by providing high-level insights suitable for decision-makers.
-
-🔍 Insights and Actionability
-Public Health Policy
-
-Identifies low-coverage regions for targeted intervention
-
-Evaluates vaccine effectiveness across regions and time
-
-Resource Allocation
-
-Supports data-driven vaccine distribution planning
-
-Helps forecast future vaccine demand
-
-Disease Prevention
-
-Highlights outbreak-prone regions due to low coverage
-
-Assists in proactive vaccination campaign planning
-
-The Power BI reports convert complex vaccination data into clear, actionable insights for public health authorities.
-
-📁 Repository Structure
-📦 Vaccination-Data-Analysis
- ┣ 📄 app.py
- ┣ 📄 README.md
- ┣ 📊 PowerBI_Dashboard.pbix
- ┣ 📁 screenshots (optional)
-
-✅ Project Highlights
-
-30/30 questions implemented (no skips)
-
-Zero SQL join errors in Streamlit
-
-Power BI used for advanced visualization
-
-Fully viva-ready and evaluation-compliant
-
-Clean, modular, and documented code
-
-🧪 How to Run the Project
-
-Clone the repository
-
-Set up MySQL and import the database
-
-Update database credentials in app.py
-
-Run:
-
+KPI cards
+Country-wise vaccination comparison
+WHO regional analysis
+Vaccination trends over time
+Vaccine-wise coverage analysis
+Interactive slicers
+Ranking visualizations
+Heatmaps and comparative charts
+💼 Business Use Cases
+🏥 Public Health Planning
+Monitor vaccination program performance
+Identify low-coverage populations
+Support immunization campaigns
+🌍 Disease Prevention
+Detect regions vulnerable to outbreaks
+Evaluate vaccination effectiveness
+Monitor disease control initiatives
+📦 Resource Allocation
+Optimize vaccine distribution
+Forecast vaccine demand
+Improve inventory planning
+📊 Policy Support
+Assist governments and health agencies
+Enable evidence-based policy decisions
+Support strategic vaccination planning
+📈 Key Insights
+Vaccination coverage varies significantly across countries and regions.
+Certain vaccines achieve consistently higher uptake than others.
+Trend analysis highlights improvements as well as regions requiring additional attention.
+Interactive dashboards simplify monitoring and decision-making for healthcare stakeholders.
+📂 Repository Structure
+Vaccination-Data-Analysis/
+│
+├── app.py
+├── README.md
+├── requirements.txt
+├── PowerBI_Dashboard.pbix
+├── screenshots/
+├── sql/
+└── data/
+🚀 Getting Started
+Clone the Repository
+git clone https://github.com/Ankitatan/Vaccination-Data-Analysis.git
+cd Vaccination-Data-Analysis
+Install Dependencies
+pip install -r requirements.txt
+Configure MySQL
+Create the vaccination_project database.
+Import the required tables.
+Update the database credentials in app.py.
+Run the Application
 streamlit run app.py
 
+Open the Power BI dashboard (PowerBI_Dashboard.pbix) for advanced analytics and executive reporting.
 
-Open Power BI file for advanced insights
+📸 Dashboard Preview
 
-📌 Evaluation Readiness
+Add screenshots of your Streamlit and Power BI dashboards here.
 
-This project meets all evaluation criteria:
+Example:
 
-Data cleaning and normalization
-
-SQL integrity and structure
-
-Interactive dashboards
-
-Actionable insights and business relevance
-
-👤 Author
+screenshots/home_dashboard.png
+screenshots/powerbi_dashboard.png
+✨ Skills Demonstrated
+SQL Query Development
+Database Design
+Data Cleaning
+Exploratory Data Analysis (EDA)
+Data Visualization
+Dashboard Development
+Business Intelligence
+Public Health Analytics
+Streamlit Application Development
+Power BI Reporting
+Data Storytelling
+🔮 Future Enhancements
+Integrate live vaccination datasets through APIs.
+Add machine learning models for vaccination trend forecasting.
+Build interactive geographic heat maps.
+Deploy the application on Streamlit Community Cloud.
+Automate data refresh for real-time reporting.
+👩‍💻 Author
 
 Ankita Taneja
-Aspiring Data Scientist | Healthcare & Analytics Projects
+
+Aspiring Data Analyst | Data Scientist | Business Intelligence Enthusiast
+
+🔗 GitHub: https://github.com/Ankitatan
+💼 LinkedIn: https://www.linkedin.com/in/ankita-taneja-390613396/
+⭐ Support
+
+If you found this project helpful or interesting, consider giving the repository a ⭐ Star. It helps others discover the project and supports future development.
