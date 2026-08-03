@@ -25,6 +25,8 @@ Dashboard	Streamlit
 Business Intelligence	Power BI
 Visualization	Altair, Power BI
 Data Analysis	Pandas, NumPy
+
+
 🗄️ Database Structure
 
 Database: vaccination_project
@@ -36,6 +38,8 @@ incidence_rate – Disease incidence statistics
 reported_cases – Reported disease case counts
 vaccine_introduction – Vaccine rollout information
 vaccine_schedule – Immunization schedules and target populations
+
+
 📊 Streamlit Dashboard
 
 The Streamlit application provides interactive SQL-based analytics with 30 analytical questions, organized into three sections:
@@ -58,6 +62,8 @@ Dynamic charts and tables
 Robust MySQL connectivity
 Modular code structure
 User-friendly interface
+
+
 📈 Power BI Dashboard
 
 The Power BI dashboard provides executive-level business intelligence with:
